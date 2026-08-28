@@ -9,7 +9,9 @@ public partial class CalculoPage : ContentPage
 
     private void OnLimparCliked(object sender, EventArgs e)
     {
-
+        precoEtanoltxt.Text = string.Empty;
+        precoGasolinatxt.Text = string.Empty; 
+        lblResultado.Text = string.Empty;
     }
 
     private void OnCalcularCliked(object sender, EventArgs e)
