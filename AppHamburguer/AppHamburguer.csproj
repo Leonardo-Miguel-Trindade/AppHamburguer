@@ -65,7 +65,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="CalculoAutonomia.xaml.cs">
+	    <DependentUpon>CalculoAutonomia.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="CalculoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="CalculoAutonomia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
