@@ -28,6 +28,10 @@
                 Text="Calcular"
                 Clicked="OnCalcularCliked"
                 Margin="0,10,0,0"/>
+            <Button
+                Text="Calcular"
+                Clicked="OnLimparCliked"
+                Margin="0,10,0,0"/>
 
             <Label x:Name="lblResultado"
                    FontSize="18"
