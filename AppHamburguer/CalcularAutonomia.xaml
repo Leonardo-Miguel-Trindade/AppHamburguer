@@ -4,9 +4,26 @@
              x:Class="AppHamburguer.CalcularAutonomia"
              Title="CalcularAutonomia">
     <VerticalStackLayout>
+        <Entry
+            x:Name="txtDistancia"
+            Placeholder="Digite a distancia percorrida (km)"
+            Keyboard="Numeric"/>
+
+        <Entry x:Name="txtLitros"
+               Placeholder="Digite a quantidade de litros abastecidos"
+               Keyboard="Numeric"/>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            x:Name="lblResultado"
+            Text=""
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        
+        <Button Text="Calcular Autonomia"
+                WidthRequest="200"
+                Clicked="OnCalcularAutonomiaClicked"/>
+        
+        <Button Text="Limpar"
+                WidthRequest="200"
+                Clicked="OnLimparClicked"/>
     </VerticalStackLayout>
 </ContentPage>
