@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
@@ -65,16 +65,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="CalculoAutonomia.xaml.cs">
-	    <DependentUpon>CalculoAutonomia.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="CalculoPage.xaml">
+	  <MauiXaml Update="CalcularAutonomia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="CalculoAutonomia.xaml">
+	  <MauiXaml Update="CalculoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
