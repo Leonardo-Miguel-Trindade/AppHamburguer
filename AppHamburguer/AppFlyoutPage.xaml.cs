@@ -12,7 +12,7 @@ public partial class AppFlyoutPage : FlyoutPage
 
 	private void gasetaClicked(object sender, EventArgs e)
     {
-        Detail = new NavigationPage(new CalcularAutonomia());
+        Detail = new NavigationPage(new CalculoPage());
         IsPresented = false; 
 
     }
