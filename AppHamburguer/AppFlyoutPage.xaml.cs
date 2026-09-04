@@ -1,6 +1,6 @@
 namespace AppHamburguer;
 
-public partial class AppFlyoutPage : ContentPage
+public partial class AppFlyoutPage : FlyoutPage
 {
 	public AppFlyoutPage()
 	{
@@ -22,6 +22,4 @@ public partial class AppFlyoutPage : ContentPage
         Detail = new NavigationPage(new CalcularAutonomia());
         IsPresented = false;
     }
-
-
 }
